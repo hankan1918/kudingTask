@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Musical Playlist</h1>
-    <hr>
     <p>포스터를 클릭하면 영상을 볼 수 있어요!</p>
-    <hr>
-    <table>
-        <tr>
-            <td><a href="https://youtu.be/V1UEirOhDcI"><img src="img/sweeneyTodd.jpg" width="300px"></a></td>
-            <td><a href="https://youtu.be/wVqb4CtSvWI"><img src="img/hope.jpg" width="300px"></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://youtu.be/M2RsqfqY-ZE"><img src="img/moulinRouge.jpg" width="300px"></a></td>
-            <td><a href="https://youtu.be/4PlTPNZZeY0"><img src="img/deathNote.jpg" width="300px"></a></td>
-        </tr>
-    </table>
+    <div id="grid">
+        <ol>
+            <li>스위니토드</li>
+            <li>호프</li>
+            <li>물랑루즈!</li>
+            <li>데스노트</li>
+        </ol>
+        <div id="poster_">
+            <div id="poster">
+                <a href="https://youtu.be/V1UEirOhDcI"><img src="img/sweeneyTodd.jpg" height="100%"></a></td>
+                <a href="https://youtu.be/wVqb4CtSvWI"><img src="img/hope.jpg" height="100%"></a></td>
+            </div>
+            <div id="poster">
+                <a href="https://youtu.be/M2RsqfqY-ZE"><img src="img/moulinRouge.jpg" height="100%"></a></td>
+                <a href="https://youtu.be/4PlTPNZZeY0"><img src="img/deathNote.jpg" height="100%"></a></td>
+            </div>
+        </div>
+    </div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     <div id="disqus_thread"></div>
     <script>
